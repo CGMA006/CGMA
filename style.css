@@ -9,7 +9,7 @@ box-sizing:border-box;
     background-size: cover; 
     width: 100%;
     height: 100vh;
-    background-image: url('fg.jpg');
+    background-image: url('fold/fg.jpg');
     background-size: cover;
     background-position: center;
     image-rendering: crisp-edges;
@@ -174,3 +174,4 @@ cursor: pointer;
 .log:hover{
     background-color: #870091;
 }
+

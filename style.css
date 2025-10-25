@@ -7,18 +7,11 @@ box-sizing:border-box;
 
 .main {
   width: 100%;
-    min-height: 100vh;
     background-image: url('fold/fg.jpg');
    background-size:cover;
     background-position:center;
-    background-repeat:no-repeat;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:0;
-    overflow:hidden;
+    height:109vh
+  
     
 }
 
@@ -180,6 +173,7 @@ cursor: pointer;
 .log:hover{
     background-color: #870091;
 }
+
 
 
 

@@ -178,6 +178,63 @@ cursor: pointer;
     background-color: #870091;
 }
 
+@media (max-width: 768px) {
+
+  /* shrink navbar items */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  /* make main content fit smaller screens */
+  .main {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .des h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .des .lor {
+    width: 90%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .btn {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  /* prevent overlapping form */
+  .form {
+    position: static;
+    margin: 20px auto;
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+
 
 
 

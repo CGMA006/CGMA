@@ -6,12 +6,19 @@ box-sizing:border-box;
 }
 
 .main {
-    background-size: cover; 
-    width: 100%;
+  width: 100%;
+    min-height: 100vh;
     background-image: url('fold/fg.jpg');
     background-size: cover;
     background-position: center;
-    margin:auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 20px;
     
 }
 
@@ -173,5 +180,6 @@ cursor: pointer;
 .log:hover{
     background-color: #870091;
 }
+
 
 

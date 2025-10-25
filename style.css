@@ -122,8 +122,9 @@ cursor: pointer;
 }
 
 .form{
-    padding-right: 60px;
-   position: absolute;
+    padding:15px;
+    text-align:centre;
+   position: static;
   top: 100px;
   right: 50px;
  background: linear-gradient(
@@ -132,6 +133,9 @@ cursor: pointer;
     rgba(0,0,0,0) 100%     );
      border-radius: 20px;
      height:200px;
+    margin:20px auto;
+    width:90%;
+    
 
 
 }
@@ -173,6 +177,7 @@ cursor: pointer;
 .log:hover{
     background-color: #870091;
 }
+
 
 
 
